@@ -1,0 +1,30 @@
+{
+  "name": "com.bujiaban.pointcloud.immersal",
+  "version": "2.0.0",
+  "displayName": "Bujiaban Point Cloud Immersal Backend",
+  "description": "Immersal map backend for the Bujiaban point-cloud localization facade.",
+  "unity": "6000.6",
+  "dependencies": {
+    "com.bujiaban.pointcloud": "3.0.0",
+    "com.immersal.core": "2.4.0",
+    "com.unity.sharp-zip-lib": "1.4.2",
+    "com.unity.xr.arfoundation": "6.6.2",
+    "com.unity.xr.core-utils": "2.6.0"
+  },
+  "keywords": [
+    "point-cloud",
+    "localization",
+    "immersal"
+  ],
+  "author": {
+    "name": "Bujiaban"
+  },
+  "unityRelease": "2f1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3dugc/PointCloud.git",
+    "directory": "Packages/com.bujiaban.pointcloud.immersal"
+  },
+  "documentationUrl": "https://github.com/3dugc/PointCloud/blob/v1.0.0/Documentation~/integration.md",
+  "changelogUrl": "https://github.com/3dugc/PointCloud/blob/v1.0.0/Packages/com.bujiaban.pointcloud.immersal/CHANGELOG.md"
+}

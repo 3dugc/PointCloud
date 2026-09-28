@@ -1,0 +1,21 @@
+{
+  "name": "Bujiaban.PointCloud.Immersal.Rokid",
+  "rootNamespace": "Bujiaban.PointCloud.Immersal.Rokid",
+  "references": [
+    "Immersal.Core",
+    "Rokid.Unity.XR",
+    "Unity.XR.CoreUtils"
+  ],
+  "includePlatforms": [
+    "Editor",
+    "Android"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e3743f5137643e38bade19300c875ba, type: 3}
+  m_Name: RokidLocalizationProfile
+  m_EditorClassIdentifier: Bujiaban.PointCloud.Immersal::Bujiaban.PointCloud.Immersal.ImmersalLocalizationProfile
+  _settings:
+    MinimumFrameContrast: 10
+    MinimumFrameEdgeRatio: 0.018
+    MinimumFrameCornerCount: 18
+    MinimumFrameDetailedRegions: 3
+    MinimumLocalizationConfidence: 15
+    MaximumLocalizationRmse: 1.2
+    MinimumStrongLocalizationConfidence: 20
+    MaximumStrongLocalizationRmse: 1
+    MinimumStrongMatches: 2
+    RequiredStableSamples: 5
+    MaxPositionDrift: 0.1
+    MaxRotationDriftDegrees: 4
+    MinimumConfirmationSeconds: 2.5
+    MinimumViewPositionDelta: 0.05
+    MinimumViewRotationDelta: 3
+    MinimumFrameSignatureDistance: 8
+    MinimumConfirmationPositionSpan: 0.15
+    MinimumConfirmationRotationSpan: 12
+    MaximumDownwardDotForContextView: 0.35
+    MinimumContextMatches: 2
+    MaximumObservationWindow: 9
+    MaximumObservationAgeSeconds: 25
+    MaximumEvidenceGapSeconds: 10
+    MinimumAttemptIntervalSeconds: 0.75
+    MaintenanceAttemptIntervalSeconds: 1
+    MaintenanceRequiredStableSamples: 3
+    MaintenanceMaximumObservationWindow: 5
+    MaintenanceMaxPositionDrift: 0.08
+    MaintenanceMaxRotationDriftDegrees: 3
+    MaintenanceMinimumConfirmationSeconds: 1.5
+    MaintenanceObservationAgeSeconds: 20
+    MaintenanceEvidenceGapSeconds: 6
+    MaximumAutomaticPositionCorrection: 0.2
+    MaximumAutomaticRotationCorrection: 5
+    PositionCorrectionDeadband: 0.005
+    RotationCorrectionDeadband: 0.15
+    MaximumProvisionalPositionStep: 0.03
+    MaximumProvisionalRotationStepDegrees: 1
+    ProvisionalCorrectionSmoothingSeconds: 0.25
+    CorrectionSmoothingSeconds: 1

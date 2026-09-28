@@ -1,0 +1,7 @@
+{
+  "name": "Bujiaban.PointCloud.Simulation.Tests",
+  "references": ["Bujiaban.PointCloud.Simulation", "Bujiaban.PointCloud", "Bujiaban.PointCloud.Immersal"],
+  "includePlatforms": ["Editor"],
+  "optionalUnityReferences": ["TestAssemblies"],
+  "autoReferenced": false
+}

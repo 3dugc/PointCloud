@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e3743f5137643e38bade19300c875ba, type: 3}
+  m_Name: iOSLocalizationProfile
+  m_EditorClassIdentifier: Bujiaban.PointCloud.Immersal::Bujiaban.PointCloud.Immersal.ImmersalLocalizationProfile
+  _settings:
+    MinimumFrameContrast: 10
+    MinimumFrameEdgeRatio: 0.018
+    MinimumFrameCornerCount: 18
+    MinimumFrameDetailedRegions: 3
+    MinimumLocalizationConfidence: 50
+    MaximumLocalizationRmse: 1.2
+    MinimumStrongLocalizationConfidence: 80
+    MaximumStrongLocalizationRmse: 1.2
+    MinimumStrongMatches: 1
+    RequiredStableSamples: 5
+    MaxPositionDrift: 0.075
+    MaxRotationDriftDegrees: 3
+    MinimumConfirmationSeconds: 3
+    MinimumViewPositionDelta: 0.05
+    MinimumViewRotationDelta: 4
+    MinimumFrameSignatureDistance: 10
+    MinimumConfirmationPositionSpan: 0.15
+    MinimumConfirmationRotationSpan: 12
+    MaximumDownwardDotForContextView: 0.35
+    MinimumContextMatches: 2
+    MaximumObservationWindow: 9
+    MaximumObservationAgeSeconds: 20
+    MaximumEvidenceGapSeconds: 20
+    MinimumAttemptIntervalSeconds: 0.75
+    MaintenanceAttemptIntervalSeconds: 0.75
+    MaintenanceRequiredStableSamples: 3
+    MaintenanceMaximumObservationWindow: 5
+    MaintenanceMaxPositionDrift: 0.05
+    MaintenanceMaxRotationDriftDegrees: 2
+    MaintenanceMinimumConfirmationSeconds: 1
+    MaintenanceObservationAgeSeconds: 15
+    MaintenanceEvidenceGapSeconds: 5
+    MaximumAutomaticPositionCorrection: 0.2
+    MaximumAutomaticRotationCorrection: 5
+    PositionCorrectionDeadband: 0.005
+    RotationCorrectionDeadband: 0.15
+    MaximumProvisionalPositionStep: 0.025
+    MaximumProvisionalRotationStepDegrees: 0.75
+    ProvisionalCorrectionSmoothingSeconds: 0.2
+    CorrectionSmoothingSeconds: 0.75

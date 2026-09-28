@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "com.bujiaban.pointcloud": "file:../../../Packages/com.bujiaban.pointcloud",
+    "com.unity.test-framework": "1.8.0"
+  },
+  "testables": [
+    "com.bujiaban.pointcloud"
+  ]
+}

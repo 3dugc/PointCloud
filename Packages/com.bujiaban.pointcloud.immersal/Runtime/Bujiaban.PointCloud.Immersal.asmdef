@@ -1,0 +1,20 @@
+{
+  "name": "Bujiaban.PointCloud.Immersal",
+  "rootNamespace": "Bujiaban.PointCloud.Immersal",
+  "references": [
+    "Bujiaban.PointCloud",
+    "Immersal.Core",
+    "Unity.XR.ARFoundation",
+    "Unity.XR.ARSubsystems",
+    "Unity.XR.CoreUtils"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

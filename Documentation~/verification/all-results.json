@@ -1,0 +1,1051 @@
+{
+  "suite": "all",
+  "unity": "6000.6.2f1",
+  "testRun": {
+    "id": "2",
+    "testcasecount": "257",
+    "result": "Passed",
+    "total": "257",
+    "passed": "257",
+    "failed": "0",
+    "inconclusive": "0",
+    "skipped": "0",
+    "asserts": "0",
+    "engine-version": "3.5.0.0",
+    "clr-version": "4.0.30319.42000",
+    "start-time": "2026-09-28 09:13:17Z",
+    "end-time": "2026-09-28 09:13:21Z",
+    "duration": "3.8087"
+  },
+  "sourceXmlSha256": "0747cf028cc07e6636d70fcdb581d1e077297e8200ba645747231f5964d92cbd",
+  "tests": [
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalCaptureFreshnessTests.RepeatedOlderAndInvalidCapturesAreRejectedUntilReset",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileAssetTests.InspectorFieldsSerializeAndSnapshotsRemainIndependent",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.ConfidenceIsNotLimitedToAPercentage",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.DefaultsPreserveTheExistingStrictPolicy",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.EditingTheSourceDoesNotChangeAnActiveSnapshotOrAnotherProfile",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"RequiredStableSamples\",1.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"RequiredStableSamples\",13.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"RequiredStableSamples\",65.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumObservationWindow\",4.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumObservationWindow\",13.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumObservationWindow\",31.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumObservationWindow\",32.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumObservationWindow\",65.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumFrameContrast\",0.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumFrameContrast\",128.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumFrameContrast\",double.NaN)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumFrameEdgeRatio\",0.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumFrameEdgeRatio\",1.01d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumFrameEdgeRatio\",double.PositiveInfinity)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumFrameCornerCount\",0.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumFrameDetailedRegions\",0.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumFrameDetailedRegions\",17.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumLocalizationConfidence\",0.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumLocalizationConfidence\",81.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumStrongLocalizationConfidence\",49.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumLocalizationRmse\",0.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumLocalizationRmse\",double.NaN)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumLocalizationRmse\",double.PositiveInfinity)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumStrongLocalizationRmse\",1.21d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumStrongLocalizationRmse\",-1.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumStrongLocalizationRmse\",double.NaN)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumStrongMatches\",0.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumStrongMatches\",6.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumContextMatches\",0.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumContextMatches\",6.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumFrameSignatureDistance\",0.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumFrameSignatureDistance\",65.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumViewPositionDelta\",0.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumViewPositionDelta\",double.PositiveInfinity)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumViewRotationDelta\",0.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumViewRotationDelta\",181.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaxPositionDrift\",0.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaxPositionDrift\",double.NaN)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaxRotationDriftDegrees\",181.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumConfirmationPositionSpan\",0.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumConfirmationRotationSpan\",0.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumConfirmationRotationSpan\",double.NaN)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumDownwardDotForContextView\",-1.1d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumDownwardDotForContextView\",1.1d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumDownwardDotForContextView\",double.NaN)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumConfirmationSeconds\",0.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumConfirmationSeconds\",10.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumObservationAgeSeconds\",4.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumObservationAgeSeconds\",double.PositiveInfinity)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumEvidenceGapSeconds\",0.75d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MaximumEvidenceGapSeconds\",double.NaN)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumAttemptIntervalSeconds\",0.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.InvalidSettingsFailInsteadOfBeingSilentlyClamped(\"MinimumAttemptIntervalSeconds\",3.0d)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.MaximumSupportedWindowRemainsValid",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.SampleLifetimeMustAllowAllRequiredAttempts",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalLocalizationProfileTests.SnapshotContainsOnlyValueFields",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalMaintenanceStateTests.ConsistentMaintenanceResultsMoveBeforeFinalConfirmation",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalMaintenanceStateTests.TrackingInvalidationCancelsPreviewAtLastVerifiedPose",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalMaintenanceStateTests.UnconfirmedPreviewRollsBackAndLargeCandidateNeverMovesContent",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalMapArchiveReaderTests.AppleDoubleMapMetadataIsIgnored",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalMapArchiveReaderTests.CancellationIsKeptSeparate",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalMapArchiveReaderTests.MissingMapIsRejected",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalMapArchiveReaderTests.MultipleMapsAreRejected",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalMapArchiveReaderTests.ReadsExactlyOneMapAndIgnoresGlb(\"map.byte\")",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalMapArchiveReaderTests.ReadsExactlyOneMapAndIgnoresGlb(\"map.bytes\")",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalMapArchiveReaderTests.ReadsExactlyOneMapAndIgnoresGlb(\"folder/MAP.BYTES\")",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalPlatformCancellationTests.CancellingSecondOwnedConfigureClosesReopenedPreviewAndDrainsConfiguration",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalPlatformCancellationTests.HostOwnedCancellationDrainsWorkWithoutStoppingItsPreview",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalPlatformCancellationTests.OwnedWorkCancellationStopsPreviewBeforeWaitingForLateWork",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalProgressStageTests.RetainedVotesStayConfirmingWhileOtherRequirementsArePending(0,Searching)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalProgressStageTests.RetainedVotesStayConfirmingWhileOtherRequirementsArePending(1,Confirming)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalProgressStageTests.RetainedVotesStayConfirmingWhileOtherRequirementsArePending(2,Confirming)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalProgressStageTests.RetainedVotesStayConfirmingWhileOtherRequirementsArePending(3,Confirming)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalProgressStageTests.RetainedVotesStayConfirmingWhileOtherRequirementsArePending(4,Confirming)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalPublicApiContractTests.BackendAndProfileDeclareNoPublicBusinessMethods(Bujiaban.PointCloud.Immersal.ImmersalPointCloudBackend)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalPublicApiContractTests.BackendAndProfileDeclareNoPublicBusinessMethods(Bujiaban.PointCloud.Immersal.ImmersalLocalizationProfile)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalPublicApiContractTests.MapIdComesFromLeadingFilenameNumber(\"123-map\",123)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalPublicApiContractTests.MapIdComesFromLeadingFilenameNumber(\"123\",123)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalPublicApiContractTests.MapIdComesFromLeadingFilenameNumber(\"map\",1)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalPublicApiContractTests.MapIdComesFromLeadingFilenameNumber(\"0-map\",1)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalPublicApiContractTests.MapIdComesFromLeadingFilenameNumber(null,1)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalPublicApiContractTests.RuntimeAssemblyExposesOnlyBackendAndProfile",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalRuntimeInitializationTests.AlreadyReadyRuntimeDoesNotConfigureTheCameraAgain",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalRuntimeInitializationTests.CompletedButNotReadyInitializationFailsWithoutAutomaticRetry",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalRuntimeInitializationTests.ConcurrentRequestsAwaitOneInitializationAndReuseReadyRuntime",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalSceneUpdaterCompatibilityTests.MapRelationProducesWorldPoseWithoutMovingTheHostOrigin",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalSceneUpdaterCompatibilityTests.ScreenOrientationProducesTheExpectedWorldMapOrigin(0.0f,12.0f,3.0f)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalSceneUpdaterCompatibilityTests.ScreenOrientationProducesTheExpectedWorldMapOrigin(90.0f,11.0f,6.0f)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalSceneUpdaterCompatibilityTests.ScreenOrientationProducesTheExpectedWorldMapOrigin(-90.0f,9.0f,2.0f)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalSceneUpdaterCompatibilityTests.ScreenOrientationProducesTheExpectedWorldMapOrigin(180.0f,8.0f,5.0f)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalSceneUpdaterCompatibilityTests.SolverAndScreenRotationsPreserveTheirNonCommutingOrder",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingLoopTests.CancellationDrainsLateNativeResultWithoutPublishingPose",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingLoopTests.ConfirmationProgressResetCannotReturnPoseFromReplacedGate",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingLoopTests.FullSampleCountReportsRemainingRequirementWithoutClaimingSuccess",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingLoopTests.InitialTrackingResetImmediatelyReportsZeroAndRecoveryStartsWithOneFreshObservation",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingLoopTests.MaintenanceAcquiresAndSolvesAgainForTwoActualPoseCorrections",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingLoopTests.RepeatedImageAndConflictingPoseReportDifferentRequirements",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingLoopTests.ResetDuringPendingMaintenanceSolveImmediatelyUsesInitialGate",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingLoopTests.RetainedEvidenceReportsTheActualSdkQualityDetailAndCameraFailure",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingLoopTests.SmoothingPoseCallbackResetReportsInterruptionInsteadOfApplied",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingLoopTests.TwoConsistentLargeCorrectionsRequireNewViewsBeforeReacquisition",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingLoopTests.VerifiedPoseExpiresWhileNativeSolveIsStillPending",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingMonitorTests.ArSessionRecoveryDoesNotReviveAResultFromBeforeTrackingLoss",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingMonitorTests.DisposedStateRejectsResultsAndNeverCallsBack",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingMonitorTests.LossAndRecoveryRejectInFlightResultAndOnlyInvalidateOncePerLoss",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingMonitorTests.NonArFoundationPlatformDoesNotDependOnArSessionState",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingMonitorTests.OriginTranslationRotationOrScaleInvalidatesPreviousEvidence(0)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingMonitorTests.OriginTranslationRotationOrScaleInvalidatesPreviousEvidence(1)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingMonitorTests.OriginTranslationRotationOrScaleInvalidatesPreviousEvidence(2)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingMonitorTests.PauseInvalidatesOnceAndResumeRequiresANewRevision",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingMonitorTests.RecenterEventRejectsEarlierResultEvenWhenTrackingQualityStayedGood",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingMonitorTests.ReentrantCallbackCannotRecursivelyResetEvidence",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingMonitorTests.ReplacingOrRemovingOriginInvalidatesEvenAtIdenticalCoordinates",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.ImmersalTrackingMonitorTests.TrackingMustBeEstablishedButFirstGoodStatusDoesNotResetEvidence",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.ActualIOSAssetClassifiesQualityWithoutDiscardingHighConfidenceAtValidRmse(100,1.127d,True,True)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.ActualIOSAssetClassifiesQualityWithoutDiscardingHighConfidenceAtValidRmse(82,1.059d,True,True)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.ActualIOSAssetClassifiesQualityWithoutDiscardingHighConfidenceAtValidRmse(77,1.059d,True,False)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.ActualIOSAssetClassifiesQualityWithoutDiscardingHighConfidenceAtValidRmse(49,1.059d,False,False)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.ActualIOSAssetClassifiesQualityWithoutDiscardingHighConfidenceAtValidRmse(100,1.201d,False,False)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.ActualIOSAssetClassifiesQualityWithoutDiscardingHighConfidenceAtValidRmse(100,double.NaN,False,False)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.ActualIOSPolicyKeepsFiveViewsAndQualityGeometryAndDurationThresholds",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.CurrentConflictingPoseCannotBorrowFiveRetainedViewsWithOneStrongMatch",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.CurrentMissCannotConfirmFiveRetainedViewsWithOneStrongMatch",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.ExpiringThreeOlderViewsCanLegitimatelyLeaveOneFreshView",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.FiveConsistentViewsWithoutAnyStrongMatchRemainUnconfirmed",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.FiveViewsWithOneStrongMatchStillNeedThreeSecondsOfEvidence",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.FourStrongViewsCannotReplaceTheRequiredFifthObservation",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.FourViewsSurviveEightSecondMissGapThenExpireIndividuallyAtTheirOriginalTwentySecondAges",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.LatestLoggedQualityPairsConfirmFiveSyntheticViewsWithExactlyOneStrongMatch",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.MaintenanceAfterInitialConfirmationNeedsThreeFreshVotesAndItsOwnStrongMatch(False)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.MaintenanceAfterInitialConfirmationNeedsThreeFreshVotesAndItsOwnStrongMatch(True)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.RepeatedInitialViewCannotManufactureFiveVotesEvenWithStrongMatches",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.RepresentativeLoggedQualityPairsConfirmFiveSyntheticViewsWithTwoStrongMatches",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.ResultCrossingOldGapDeadlineReportsOneDirectlyButCurrentProfileRetainsEvidence(True,1,4)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.IOSLocalizationEvidenceRegressionTests.ResultCrossingOldGapDeadlineReportsOneDirectlyButCurrentProfileRetainsEvidence(False,5,0)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.PointCloudDiagnosticJournalTests.JournalFlushesBeforeDisposalAndEscapesText",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.PointCloudDiagnosticJournalTests.RotationIsBoundedAndKeepsHeaderWithoutRemovingOtherFiles",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Immersal.Tests.PointCloudDiagnosticJournalTests.UnwritableJournalWarnsOnceAndNeverThrowsIntoLocalization",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Simulation.Tests.CorrectionExperimentTests.BothPlatformProfilesPassQuantitativeComparisonsAndExposePersistentWrongMatchLimitation",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Simulation.Tests.CorrectionExperimentTests.ChangingPublishedOutputCannotChangeSyntheticMeasurementAtTheSamePhysicalTime",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Simulation.Tests.CorrectionExperimentTests.PendingRecoveryCannotCompleteWhileTrackingIsInvalidOrAfterStop(\"iOS\")",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Simulation.Tests.CorrectionExperimentTests.PendingRecoveryCannotCompleteWhileTrackingIsInvalidOrAfterStop(\"Rokid\")",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Simulation.Tests.CorrectionExperimentTests.SyntheticObservationChangesWithTrackingFrameWhilePublishedPoseIsStillUnchanged(\"iOS\")",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Simulation.Tests.CorrectionExperimentTests.SyntheticObservationChangesWithTrackingFrameWhilePublishedPoseIsStillUnchanged(\"Rokid\")",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Simulation.Tests.CorrectionExperimentTests.TranslatedRotatedTrackingFrameHasAnalyticPhysicalCoordinates",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Simulation.Tests.CorrectionExperimentTests.TwoDriftInjectionsProduceRealPhysicalErrorAndSeparateGradualRecoveries(\"iOS\")",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Simulation.Tests.CorrectionExperimentTests.TwoDriftInjectionsProduceRealPhysicalErrorAndSeparateGradualRecoveries(\"Rokid\")",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Simulation.Tests.RuntimePrefabImportTests.iOSRuntimePrefabImportsWithItsProfileAndNoToken",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Simulation.Tests.SimulationSceneTests.BothPlatformProfilesPassDeterministicScenarios",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Simulation.Tests.SimulationSceneTests.IndependentSceneReplacesAndStopsRealFacadeOperations",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Simulation.Tests.SimulationSceneTests.QuantitativeSceneRendersPhysicalCorrectionsAndFreezesWhenPausedOrStopped",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.FrameEvidenceAnalyzerTests.DistributedFloorMarkings_AreAccepted",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.FrameEvidenceAnalyzerTests.FlatFrame_IsRejected",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.FrameEvidenceAnalyzerTests.InvalidBuffer_IsRejectedAsInvalidInput",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.FrameEvidenceAnalyzerTests.PlatformThresholdsChangeAcceptanceWithoutChangingMeasurements(\"contrast\")",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.FrameEvidenceAnalyzerTests.PlatformThresholdsChangeAcceptanceWithoutChangingMeasurements(\"edges\")",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.FrameEvidenceAnalyzerTests.PlatformThresholdsChangeAcceptanceWithoutChangingMeasurements(\"corners\")",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.FrameEvidenceAnalyzerTests.PlatformThresholdsChangeAcceptanceWithoutChangingMeasurements(\"regions\")",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.FrameEvidenceAnalyzerTests.RgbFrame_IsSupported",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.FrameEvidenceAnalyzerTests.SingleLongEdge_IsRejected",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.FrameEvidenceAnalyzerTests.SmoothLightingGradient_IsRejected",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.FrameEvidenceAnalyzerTests.ThresholdChangeIsNotRetainedByAnotherPlatformCall",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationClusterSelectionTests.CurrentMissCannotSupplyTheMissingStrongMatch(False)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationClusterSelectionTests.CurrentMissCannotSupplyTheMissingStrongMatch(True)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationClusterSelectionTests.FiveViewsWithTwoStrongMatchesConfirm(False)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationClusterSelectionTests.FiveViewsWithTwoStrongMatchesConfirm(True)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationClusterSelectionTests.LargerWeakGroupCannotHideQualifiedGroupSharingTheCurrentView(False)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationClusterSelectionTests.LargerWeakGroupCannotHideQualifiedGroupSharingTheCurrentView(True)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationClusterSelectionTests.NoQualifiedGroupKeepsTheLargestGroupForDiagnostics(False)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationClusterSelectionTests.NoQualifiedGroupKeepsTheLargestGroupForDiagnostics(True)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.ClockMustBeFiniteAndMonotonic",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.CurrentOutlierCannotReturnAnOlderStableGroup",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.DifferentCameraWithSameImageIsRetainedButCannotAddStableVote",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.DifferentImageWithoutDifferentCameraCannotAddVote",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.FailedCurrentFrameCannotReturnAnExistingConfirmedGroup",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.FailedSameViewPreservesOldPoseWithoutBorrowingContextOrRefreshingAge",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.FiveFreshPosesInABurstDoNotConfirm",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.FiveSamplesNeedAtLeastThreeStrongMatches",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.FiveStrongContextViewsOverFourSecondsConfirmWithoutWalking",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.FloorCanConfirmWithBothTranslationAndRotationAndStrongFreshEvidence",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.FloorRotationAloneNeverConfirms",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.FloorTranslationAloneNeverConfirms",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.InconsistentMapPositionsCannotFormFiveVotes",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.InconsistentMapRotationsCannotFormFiveVotes",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.LowerScoringContradictoryResultReplacesOldPose",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.MaximumWindowConfirmsAndEvictsWithOrWithoutDiagnostics(False)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.MaximumWindowConfirmsAndEvictsWithOrWithoutDiagnostics(True)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.NewSuccessAfterLongGapStartsAgainAtOne",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.OldVoteExpiresEvenWhileOtherViewsKeepSucceeding",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.OneContextFrameCannotUnlockStationaryConfirmation",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.ReplacementWithDuplicateImageCannotCountTwoVotes",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.ResetClearsCandidateClockAndIds",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.SameObservationDoesNotAccumulateVotes",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.ShortFailureAtAnotherViewPreservesCandidateButCannotConfirm",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.StablePoseIsAvailableBeforeFinalConfirmation",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.ThreeSecondsWithoutAcceptedEvidenceClearsCandidate",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.ThreeStrongMatchesAmongFiveCanConfirm",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.TwoAcceptedContextFramesCanUnlockStationaryConfirmation",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.UnsupportedWindowIsRejectedBeforeAnySearch(0,9)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.UnsupportedWindowIsRejectedBeforeAnySearch(13,13)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.UnsupportedWindowIsRejectedBeforeAnySearch(5,4)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.UnsupportedWindowIsRejectedBeforeAnySearch(5,13)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.UnsupportedWindowIsRejectedBeforeAnySearch(5,31)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.UnsupportedWindowIsRejectedBeforeAnySearch(5,32)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.UnsupportedWindowIsRejectedBeforeAnySearch(5,64)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationConfirmationGateTests.WindowEvictsUnmatchedViewsBeforeAcceptedEvidence",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationCoordinateInvariantTests.ActualLocalTranslationStillUsesSevenPointFiveCentimeterLimit(0.074f,True)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationCoordinateInvariantTests.ActualLocalTranslationStillUsesSevenPointFiveCentimeterLimit(0.08f,False)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationCoordinateInvariantTests.EitherCameraEndpointCanExposeExcessiveDisagreement(False)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationCoordinateInvariantTests.EitherCameraEndpointCanExposeExcessiveDisagreement(True)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationCoordinateInvariantTests.FarMapOriginDoesNotAmplifyLocalTwoDegreeNoiseIntoMissingFifthVote",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationCoordinateInvariantTests.MapCoordinateTranslationAndRotationPreserveConfirmationAndOutput",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationCoordinateInvariantTests.MapRelabelingPreservesMedoidWhenAllCandidatesAlreadyPass",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationCoordinateInvariantTests.OppositeCameraEndpointsCannotCancelTheirErrorAtTheMidpoint",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationCoordinateInvariantTests.RotationBeyondThreeDegreesIsRejectedEvenAtZeroPositionDisagreement",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationCoordinateInvariantTests.TrackingWorldRigidTransformPreservesConfirmationAndOutput",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationGateDiagnosticsTests.ConfirmationIdentifiesCurrentEvidenceDurationAndSelectedMedoid",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationGateDiagnosticsTests.DiagnosticsOffAndOnHaveIdenticalBehaviorIncludingTime",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationGateDiagnosticsTests.ExpiryTraceIncludesOldPoseSourceAndReason",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationGateDiagnosticsTests.FailureTraceCannotAttachContextToOldPose",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationGateDiagnosticsTests.PendingRequirementRemainsAvailableWithDiagnosticsDisabled",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationGateDiagnosticsTests.TraceDistinguishesSimilarImagesFromPoseDisagreement",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationGateDiagnosticsTests.TraceReportsActualLocalConflictWithoutCallingItImageSimilarity",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationGateDiagnosticsTests.TraceSeparatesAnchorCameraFromLatestAcceptedCamera",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationGateDiagnosticsTests.TraceSeparatesFarOriginMovementFromLocalAlignment",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationRetentionTests.ContradictoryReturnedPoseStillReplacesAndDoesNotBorrowOldConfirmation",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationRetentionTests.LargeViewChangeWithSimilarImageDoesNotOverwriteEarlierPose",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationRetentionTests.ManyUnmatchedViewsCannotEvictUsefulEvidenceBeforeItsAgeLimit",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationRetentionTests.OlderTighterClusterDoesNotHideANewSufficientCluster",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationRetentionTests.SameAttemptOrBurstCannotFillMaintenanceVotes",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationRetentionTests.ShortMissDoesNotEraseOrRefreshOldEvidenceAndCannotConfirm",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.LocalizationRetentionTests.StationaryMaintenanceConfirmsButInitialLocalizationDoesNot",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.BackendSpiDeclaresNoPublicCallableSurface",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.BackendSpiHasOnlyTheThreeRequiredProtectedHooks",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.CancellationReentryCanSupersedeAReplacementWaitingForCleanup",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.ContinuousTrackingReportsInitialPoseAndCancelsWithoutClosingStream",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.FacadeExposesOnlyOneShotAndContinuousBusinessMethods",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.FacadePassesOperationProgressToBackend",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.FailureTypeCanOnlyBeCaughtNotConstructedByBusinessCode",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.InvalidInputIsReportedAsLocalizationFailure(False)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.InvalidInputIsReportedAsLocalizationFailure(True)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.ProgressCallbackCanSynchronouslyReplaceItsRequest",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.ProgressStageValuesRemainBackwardCompatible",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.ReplacementWaitsForCleanupAndRejectsLateNotifications(False)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.ReplacementWaitsForCleanupAndRejectsLateNotifications(True)",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.RuntimeAssemblyExposesOnlyFacadeProgressExceptionAndBackendSpi",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.SecondCallCancelsCleansAndThenReplacesFirstCall",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.ThrowingCancellationCallbackCannotStrandReplacement",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.ThrowingPoseListenerDoesNotEndTrackingAndCannotRunAfterCompletion",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.TrackingProgressRetainsVerificationTimeAfterPoseBecomesUnverified",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.UnknownMapTypeIsReportedAsLocalizationFailure",
+      "result": "Passed"
+    },
+    {
+      "name": "Bujiaban.PointCloud.Tests.PublicApiContractTests.ValidBackendReturnsPoseWithoutClosingCallerStream",
+      "result": "Passed"
+    }
+  ]
+}

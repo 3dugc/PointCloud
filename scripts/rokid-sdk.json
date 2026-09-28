@@ -1,0 +1,183 @@
+{
+  "schema_version": 1,
+  "package": "com.rokid.xr.unity",
+  "version": "4.0.1",
+  "patch_set": "unity-6000.6-compatibility-v2",
+  "source": {
+    "url": "https://npm.rokid.com/com.rokid.xr.unity/-/com.rokid.xr.unity-4.0.1.tgz",
+    "sha256": "d35ed564f592d35d61934e148ae46988cca473a0f6e7e7d946a53a3be0814e13",
+    "archive_bytes": 38368793,
+    "unpacked_bytes": 53447544,
+    "file_count": 1887
+  },
+  "patched_tree_sha256": "9d0a5de6d0f2e7e05936014a1971bd48adc5d2a4f380be84a76ffb82cebe24bc",
+  "patches": [
+    {
+      "path": "Runtime/Scripts/Input/UIComponent/UGUIScrollRect.cs",
+      "reason": "UGUI 2.6 adds ILayoutElement maximum dimensions; retain unconstrained layout.",
+      "source_sha256": "07b833d0d67061838cb86e2909e9f73081338ce03cf4181174e0144a7755fd83",
+      "target_sha256": "00d3739024eb542c11a71cf3f08adbe2834aa26d466d212d19e30a3b397e5bca",
+      "replacements": [
+        {
+          "before": "        public virtual float flexibleHeight { get { return -1; } }\r\n",
+          "after": "        public virtual float flexibleHeight { get { return -1; } }\r\n\r\n#if UNITY_6000_6_OR_NEWER\r\n        public virtual float maxWidth => LayoutUtility.DefaultMaxSize;\r\n        public virtual float maxHeight => LayoutUtility.DefaultMaxSize;\r\n#endif\r\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "Runtime/Scripts/Input/HandGrab/Core/Hand.cs",
+      "reason": "Compare full EntityId values while preserving staggered per-hand scheduling.",
+      "source_sha256": "dc4d9677f90e3d22ba28bbeab69ba7e0c43d000f41919f3333d747f8216fb9f0",
+      "target_sha256": "1f8041036a6417a2106503e563b725645143e90fcde33e24886687580092b058",
+      "replacements": [
+        {
+          "before": "            float hoverUpdateBegin = ((otherHand != null) && (otherHand.GetInstanceID() < GetInstanceID())) ? (0.5f * hoverUpdateInterval) : (0.0f);\r\n",
+          "after": "#if UNITY_6000_4_OR_NEWER\r\n            float hoverUpdateBegin = ((otherHand != null) && (otherHand.GetEntityId().CompareTo(GetEntityId()) < 0)) ? (0.5f * hoverUpdateInterval) : (0.0f);\r\n#else\r\n            float hoverUpdateBegin = ((otherHand != null) && (otherHand.GetInstanceID() < GetInstanceID())) ? (0.5f * hoverUpdateInterval) : (0.0f);\r\n#endif\r\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "Runtime/Scripts/Module/ModuleManager.cs",
+      "reason": "Runtime dictionaries contain AndroidJavaObject handles and are not scene-serializable.",
+      "source_sha256": "3028f95aba12f16a58b8e0b801c0cf48ee3c8a1285f140de164820b90a009186",
+      "target_sha256": "fa3959f8002df8480850829b1bccb10b8cf1ead9cd34ed5e9db0da639ba1bb82",
+      "replacements": [
+        {
+          "before": "        [SerializeField]\r\n        private Dictionary<string, ModuleInfo> modules = new Dictionary<string, ModuleInfo>();",
+          "after": "        [NonSerialized]\r\n        private Dictionary<string, ModuleInfo> modules = new Dictionary<string, ModuleInfo>();",
+          "count": 1
+        },
+        {
+          "before": "        [SerializeField]\r\n        private Dictionary<string, ModuleInfo> afterSlamInitModules = new Dictionary<string, ModuleInfo>();",
+          "after": "        [NonSerialized]\r\n        private Dictionary<string, ModuleInfo> afterSlamInitModules = new Dictionary<string, ModuleInfo>();",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "Runtime/StaticRes/Interaction/Shaders/RokidHand.shader",
+      "reason": "Import vertex/fragment entry point pragmas from the existing include files.",
+      "source_sha256": "512692f855badc0ed0be27d61d76429e8df08d9daa170c88800423a4202b21b9",
+      "target_sha256": "64eba260878b304b1a8bd2537708a4fd692eff43749f5f2de047fc4aeae7c452",
+      "replacements": [
+        {
+          "before": "#include \"RokidHandOutlineCG.cginc\"",
+          "after": "#include_with_pragmas \"RokidHandOutlineCG.cginc\"",
+          "count": 3
+        },
+        {
+          "before": "#include \"RokidHandInteriorCG.cginc\"",
+          "after": "#include_with_pragmas \"RokidHandInteriorCG.cginc\"",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "Runtime/Scripts/PoseDetection/JointDeltaProvider.cs",
+      "reason": "Keep complete EntityId keys for joint requestor registration and removal, without integer/hash truncation.",
+      "source_sha256": "dcb6b12a77445a09533a9f00bebe853c3c16ee645a08695e782bf89ad7f36c34",
+      "target_sha256": "6c0de6933308beec5774d109522db51bbc6c371dc3988db0b07b2d872d87fccf",
+      "replacements": [
+        {
+          "before": "using UnityEngine.Assertions;\r\n",
+          "after": "using UnityEngine.Assertions;\r\n#if UNITY_6000_4_OR_NEWER\r\nusing ObjectIdentity = UnityEngine.EntityId;\r\n#else\r\nusing ObjectIdentity = System.Int32;\r\n#endif\r\n",
+          "count": 1
+        },
+        {
+          "before": "public readonly int InstanceID;",
+          "after": "public readonly ObjectIdentity InstanceID;",
+          "count": 1
+        },
+        {
+          "before": "JointDeltaConfig(int instanceID,",
+          "after": "JointDeltaConfig(ObjectIdentity instanceID,",
+          "count": 1
+        },
+        {
+          "before": "Dictionary<int, List<HandJointId>>",
+          "after": "Dictionary<ObjectIdentity, List<HandJointId>>",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "path": "Runtime/Scripts/PoseDetection/TransformFeatureStateProvider.cs",
+      "reason": "Keep complete EntityId configuration keys across transform registration, lookup and removal.",
+      "source_sha256": "2e1dfe1bd7514badf0012b2cfeeff99c0712ccae753ea84e929180a6d6e80177",
+      "target_sha256": "ca7fd5be65b92da77d6606cc34c42d7e6eb5ac539b8699424d8d4936aace90c1",
+      "replacements": [
+        {
+          "before": "using UnityEngine.Assertions;\r\n",
+          "after": "using UnityEngine.Assertions;\r\n#if UNITY_6000_4_OR_NEWER\r\nusing ObjectIdentity = UnityEngine.EntityId;\r\n#else\r\nusing ObjectIdentity = System.Int32;\r\n#endif\r\n",
+          "count": 1
+        },
+        {
+          "before": "InstanceId = 0;",
+          "after": "InstanceId = default;",
+          "count": 1
+        },
+        {
+          "before": "public int InstanceId { get; set; }",
+          "after": "public ObjectIdentity InstanceId { get; set; }",
+          "count": 1
+        },
+        {
+          "before": "Dictionary<int, TransformStateInfo>",
+          "after": "Dictionary<ObjectIdentity, TransformStateInfo>",
+          "count": 2
+        },
+        {
+          "before": "SetConfig(int configId,",
+          "after": "SetConfig(ObjectIdentity configId,",
+          "count": 1
+        },
+        {
+          "before": "GetConfig(int configId)",
+          "after": "GetConfig(ObjectIdentity configId)",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "Runtime/Scripts/PoseDetection/JointRotationActiveState.cs",
+      "reason": "Register the component with its complete EntityId on Unity 6.4 and newer.",
+      "source_sha256": "4b945c97a5169deaa1398b7f255068c434047a75a87617be9a13c57602af68e5",
+      "target_sha256": "bb6b3bb2241cfb5f59ccdd631297d102e364e440a56846d306352349f677e3bb",
+      "replacements": [
+        {
+          "before": "            _jointDeltaConfig = new JointDeltaConfig(GetInstanceID(), allTrackedJoints);\r\n",
+          "after": "#if UNITY_6000_4_OR_NEWER\r\n            _jointDeltaConfig = new JointDeltaConfig(GetEntityId(), allTrackedJoints);\r\n#else\r\n            _jointDeltaConfig = new JointDeltaConfig(GetInstanceID(), allTrackedJoints);\r\n#endif\r\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "Runtime/Scripts/PoseDetection/JointVelocityActiveState.cs",
+      "reason": "Register the component with its complete EntityId on Unity 6.4 and newer.",
+      "source_sha256": "cd4b850aaaf6f752d6da720eaf513ccf2e27adb2efa9ec72d6e30ff3e3675fbe",
+      "target_sha256": "be367b5e4e0cc5f976d4f719c90ae178785cb90cf2a2040d1756584de5d4d36c",
+      "replacements": [
+        {
+          "before": "            _jointDeltaConfig = new JointDeltaConfig(GetInstanceID(), allTrackedJoints);\r\n",
+          "after": "#if UNITY_6000_4_OR_NEWER\r\n            _jointDeltaConfig = new JointDeltaConfig(GetEntityId(), allTrackedJoints);\r\n#else\r\n            _jointDeltaConfig = new JointDeltaConfig(GetInstanceID(), allTrackedJoints);\r\n#endif\r\n",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "path": "Runtime/Scripts/PoseDetection/TransformRecognizerActiveState.cs",
+      "reason": "Register the component with its complete EntityId on Unity 6.4 and newer.",
+      "source_sha256": "c7bbcf9338f6305a24912237cef765481fd5395ce016da10d021b1b892e0fcf8",
+      "target_sha256": "115704fc53dff8c0aa215845f0f7569c71390e73f470f3e37170e00d91e208f6",
+      "replacements": [
+        {
+          "before": "            _transformConfig.InstanceId = GetInstanceID();\r\n",
+          "after": "#if UNITY_6000_4_OR_NEWER\r\n            _transformConfig.InstanceId = GetEntityId();\r\n#else\r\n            _transformConfig.InstanceId = GetInstanceID();\r\n#endif\r\n",
+          "count": 1
+        }
+      ]
+    }
+  ]
+}

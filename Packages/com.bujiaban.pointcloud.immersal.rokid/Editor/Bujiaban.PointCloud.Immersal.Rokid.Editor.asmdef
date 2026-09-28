@@ -1,0 +1,23 @@
+{
+  "name": "Bujiaban.PointCloud.Immersal.Rokid.Editor",
+  "rootNamespace": "Bujiaban.PointCloud.Immersal.Rokid.Editor",
+  "references": [
+    "Bujiaban.PointCloud.Immersal.Rokid",
+    "Immersal.Core",
+    "Immersal.Core.Editor",
+    "Unity.XR.OpenXR",
+    "Unity.XR.Management",
+    "Unity.XR.Management.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

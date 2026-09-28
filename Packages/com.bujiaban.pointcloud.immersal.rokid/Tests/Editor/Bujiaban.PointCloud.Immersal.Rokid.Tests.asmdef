@@ -1,0 +1,22 @@
+{
+  "name": "Bujiaban.PointCloud.Immersal.Rokid.Tests",
+  "rootNamespace": "Bujiaban.PointCloud.Immersal.Rokid.Tests",
+  "references": [
+    "Bujiaban.PointCloud.Immersal.Rokid",
+    "Immersal.Core"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

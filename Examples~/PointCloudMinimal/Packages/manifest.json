@@ -1,0 +1,40 @@
+{
+  "dependencies": {
+    "com.bujiaban.pointcloud": "file:../../../Packages/com.bujiaban.pointcloud",
+    "com.bujiaban.pointcloud.immersal": "file:../../../Packages/com.bujiaban.pointcloud.immersal",
+    "com.immersal.core": "https://github.com/immersal/imdk-unity.git#0f1d5db1dc1b90974044eae6723f6c9048ad46d8",
+    "com.unity.ai.navigation": "2.0.15",
+    "com.unity.inputsystem": "1.20.0",
+    "com.unity.nuget.newtonsoft-json": "3.2.2",
+    "com.unity.render-pipelines.universal": "17.6.0",
+    "com.unity.sharp-zip-lib": "1.4.2",
+    "com.unity.test-framework": "1.8.0",
+    "com.unity.ugui": "2.6.0",
+    "com.unity.xr.arcore": "6.6.2",
+    "com.unity.xr.arfoundation": "6.6.2",
+    "com.unity.xr.arkit": "6.6.2",
+    "com.unity.xr.openxr": "1.18.0",
+    "com.unity.modules.androidjni": "1.0.0",
+    "com.unity.modules.animation": "1.0.0",
+    "com.unity.modules.audio": "1.0.0",
+    "com.unity.modules.imageconversion": "1.0.0",
+    "com.unity.modules.imgui": "1.0.0",
+    "com.unity.modules.jsonserialize": "1.0.0",
+    "com.unity.modules.physics": "1.0.0",
+    "com.unity.modules.ui": "1.0.0",
+    "com.unity.modules.uielements": "1.0.0",
+    "com.unity.modules.unitywebrequest": "1.0.0",
+    "com.unity.modules.unitywebrequesttexture": "1.0.0",
+    "com.unity.modules.xr": "1.0.0",
+    "com.unity.xr.core-utils": "2.6.0",
+    "com.unity.collections": "6.6.0",
+    "com.unity.burst": "2.0.0",
+    "com.unity.mathematics": "1.4.0",
+    "com.unity.xr.management": "4.7.0",
+    "com.unity.xr.legacyinputhelpers": "3.0.1"
+  },
+  "testables": [
+    "com.bujiaban.pointcloud",
+    "com.bujiaban.pointcloud.immersal"
+  ]
+}

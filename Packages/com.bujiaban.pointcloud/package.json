@@ -1,0 +1,23 @@
+{
+  "name": "com.bujiaban.pointcloud",
+  "version": "3.0.0",
+  "displayName": "Bujiaban Point Cloud Localizer",
+  "description": "Vendor-neutral one-shot and continuous point-cloud localization facade for Unity.",
+  "unity": "6000.6",
+  "dependencies": {},
+  "keywords": [
+    "point-cloud",
+    "localization"
+  ],
+  "author": {
+    "name": "Bujiaban"
+  },
+  "unityRelease": "2f1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/3dugc/PointCloud.git",
+    "directory": "Packages/com.bujiaban.pointcloud"
+  },
+  "documentationUrl": "https://github.com/3dugc/PointCloud/blob/v1.0.0/Documentation~/integration.md",
+  "changelogUrl": "https://github.com/3dugc/PointCloud/blob/v1.0.0/Packages/com.bujiaban.pointcloud/CHANGELOG.md"
+}

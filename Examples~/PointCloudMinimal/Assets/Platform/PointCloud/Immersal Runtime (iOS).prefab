@@ -1,0 +1,332 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &347314851534537511
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1350212812955763039}
+  - component: {fileID: 4970452811362491900}
+  - component: {fileID: 2848644421432587413}
+  - component: {fileID: 4488514698248927198}
+  - component: {fileID: 6524479323640646456}
+  - component: {fileID: 8609215897190419}
+  - component: {fileID: 4687687577688023697}
+  - component: {fileID: 198523992747302038}
+  - component: {fileID: 3620702704266900113}
+  - component: {fileID: 1527336907838534159}
+  m_Layer: 0
+  m_Name: Immersal Runtime (iOS)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1350212812955763039
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347314851534537511}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8840074068601117335}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4970452811362491900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347314851534537511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43e49d49b800948e4970adf6f4d1c26f, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Bujiaban.PointCloud::Bujiaban.PointCloud.PointCloudLocalizer
+  _backends:
+  - {fileID: 2848644421432587413}
+--- !u!114 &2848644421432587413
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347314851534537511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b0a6cfb31784e948d87bcfe73456f58, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Bujiaban.PointCloud.Immersal::Bujiaban.PointCloud.Immersal.ImmersalPointCloudBackend
+  _localizationMethodObject: {fileID: 198523992747302038}
+  _ownsPlatformLifecycle: 0
+  _enableDiagnosticLogging: 1
+  _localizationProfile: {fileID: 11400000, guid: 41a7e5eebc8b4eab869d868a6879f3d7,
+    type: 2}
+--- !u!114 &4488514698248927198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347314851534537511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22271c1298ba444ffacf4138cd9ef2eb, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Immersal.Core::Immersal.ImmersalSDK
+  ImmersalServer: 0
+  developerToken:
+  m_Session: {fileID: 6524479323640646456}
+  m_Platform: {fileID: 8609215897190419}
+  m_Localizer: {fileID: 4687687577688023697}
+  m_SceneUpdater: {fileID: 3620702704266900113}
+  m_TrackingAnalyzer: {fileID: 1527336907838534159}
+  m_InitializeAutomatically: 0
+  m_TargetFrameRate: 60
+  m_Downsample: 1
+  m_LoggingLevel: 2
+  m_DownloadDirectory: Map Data
+  OnInitializationComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  OnUserValidationComplete:
+    m_PersistentCalls:
+      m_Calls: []
+  OnReset:
+    m_PersistentCalls:
+      m_Calls: []
+  m_CustomServerUrl:
+--- !u!114 &6524479323640646456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347314851534537511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1998a90ed503d46ffa5a88d3c7505c28, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Immersal.Core::Immersal.XR.ImmersalSession
+  m_AutoStart: 0
+  m_SessionUpdateInterval: 1
+  m_BurstMode: 1
+  m_BurstSuccessCount: 10
+  m_BurstTimeLimit: 15
+  m_ResetOnPause: 1
+  m_RestartOnReset: 0
+  m_ProcessData: 0
+  m_SessionDataProcessors: []
+  OnPause:
+    m_PersistentCalls:
+      m_Calls: []
+  OnResume:
+    m_PersistentCalls:
+      m_Calls: []
+  OnReset:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8609215897190419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347314851534537511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff1599bedf7cb4f2bb03770be4930ce8, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Immersal.Core::Immersal.XR.ARFoundationSupport
+  m_MaxConfigurationAttempts: 10
+  m_MsBetweenConfigurationAttempts: 100
+  m_AndroidResolution: 2
+  m_iOSResolution: 0
+  m_CameraDataFormat: 0
+--- !u!114 &4687687577688023697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347314851534537511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0113bf92df9fa4e24bd92cedc0f00ec6, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Immersal.Core::Immersal.XR.Localizer
+  m_LocalizationMethodObjects:
+  - {fileID: 198523992747302038}
+  OnFirstSuccessfulLocalization:
+    m_PersistentCalls:
+      m_Calls: []
+  OnSuccessfulLocalizations:
+    m_PersistentCalls:
+      m_Calls: []
+  OnLocalizationResult:
+    m_PersistentCalls:
+      m_Calls: []
+  OnFailedLocalizations:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &198523992747302038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347314851534537511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8be42d7c34a64923aa637c8abcaeb7d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Immersal.Core::Immersal.XR.DeviceLocalization
+  m_ConfigurationMode: 1
+  m_SolverType: 0
+  m_PriorNNCountMin: 60
+  m_PriorNNCountMax: 720
+  m_PriorScale: {x: 1, y: 1, z: 1}
+  m_PriorRadius: 6
+  m_FilterRadius: 0
+--- !u!114 &3620702704266900113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347314851534537511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10b6f3f5d6c78474d867465b74b8a539, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Immersal.Core::Immersal.XR.SceneUpdater
+--- !u!114 &1527336907838534159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 347314851534537511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d3670ede57ef84f68845b3bb411d4a87, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Immersal.Core::Immersal.XR.TrackingAnalyzer
+  m_SecondsToDecayPose: 2
+  m_SeparateLocalizationResults: 0
+  OnPlatformTrackingLost:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 4488514698248927198}
+        m_TargetAssemblyTypeName: Immersal.ImmersalSDK, Immersal.Core
+        m_MethodName: TriggerSoftReset
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument:
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnTrackingWell:
+    m_PersistentCalls:
+      m_Calls: []
+  OnTrackingLost:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!1 &2051303157511639871
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8840074068601117335}
+  - component: {fileID: 8556852829653511683}
+  - component: {fileID: 8244370891779217245}
+  - component: {fileID: 4019121013867299465}
+  m_Layer: 0
+  m_Name: XR Space
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8840074068601117335
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051303157511639871}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1350212812955763039}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8556852829653511683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051303157511639871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e870a96aef1a4fb0b543d281fcb163e, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Immersal.Core::Immersal.XR.XRSpace
+  m_ProcessPoses: 1
+  m_DataProcessors:
+  - {fileID: 8244370891779217245}
+  - {fileID: 4019121013867299465}
+--- !u!114 &8244370891779217245
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051303157511639871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9edd45749c5964a5bbbdec0791c43d79, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Immersal.Core::Immersal.XR.PoseSmoother
+  m_Mode: 0
+  m_SlowApproachSmoothing: 0.025
+  m_SmoothTimeSpan: 0.5
+  m_WarpOutsideThreshold: 1
+  m_WarpThresholdDist: 5
+  m_WarpThresholdAngle: 20
+--- !u!114 &4019121013867299465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2051303157511639871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ace14c723c1842578283a60dffe9bb2, type: 3}
+  m_Name:
+  m_EditorClassIdentifier: Immersal.Core::Immersal.XR.PoseFilter
+  m_FilterMethod: 0
+  m_HistorySize: 8
+  m_UseConfidence: 0
+  m_ConfidenceMax: 50
+  m_ConfidenceImpact: 0.5

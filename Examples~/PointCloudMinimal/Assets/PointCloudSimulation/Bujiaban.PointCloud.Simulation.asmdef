@@ -1,0 +1,7 @@
+{
+  "name": "Bujiaban.PointCloud.Simulation",
+  "rootNamespace": "Bujiaban.PointCloud.Simulation",
+  "references": ["Bujiaban.PointCloud", "Bujiaban.PointCloud.Immersal"],
+  "includePlatforms": [],
+  "autoReferenced": false
+}

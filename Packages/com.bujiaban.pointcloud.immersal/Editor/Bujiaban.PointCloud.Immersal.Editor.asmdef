@@ -1,0 +1,5 @@
+{
+  "name": "Bujiaban.PointCloud.Immersal.Editor",
+  "references": ["Bujiaban.PointCloud.Immersal"],
+  "includePlatforms": ["Editor"]
+}

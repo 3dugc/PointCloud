@@ -1,0 +1,23 @@
+{
+  "name": "Bujiaban.PointCloud.Immersal.Tests",
+  "rootNamespace": "Bujiaban.PointCloud.Immersal.Tests",
+  "references": [
+    "Bujiaban.PointCloud",
+    "Bujiaban.PointCloud.Immersal",
+    "Immersal.Core"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
